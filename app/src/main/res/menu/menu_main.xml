@@ -1,4 +1,11 @@
 <menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
-
+    <item
+        android:id="@+id/addRss"
+        android:title="Add New"
+        android:orderInCategory="100"
+        android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+        app:showAsAction="always" />
 </menu>

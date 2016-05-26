@@ -1,4 +1,4 @@
-package com.bsuir.rssreader;
+package com.bsuir.rssreader.activity;
 
 import android.content.Intent;
 import android.os.Bundle;

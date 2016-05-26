@@ -1,6 +1,9 @@
-package com.bsuir.rssreader;
+package com.bsuir.rssreader.service;
 
 import android.os.AsyncTask;
+
+import com.bsuir.rssreader.activity.AsyncResponse;
+import com.bsuir.rssreader.activity.Item;
 
 import org.xmlpull.v1.XmlPullParserException;
 

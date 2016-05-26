@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bsuir.rssreader.MainActivity">
+    tools:context="com.bsuir.rssreader.activity.MainActivity">
 
     <ListView
         android:layout_width="wrap_content"
@@ -10,5 +10,14 @@
         android:id="@+id/rssList"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true">
+    </ListView>
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="32sp"
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic" />
 </RelativeLayout>
